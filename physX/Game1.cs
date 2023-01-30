@@ -8,6 +8,7 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private Space space;
 
     public Game1()
     {
@@ -19,6 +20,7 @@ public class Game1 : Game
     protected override void Initialize()
     {
         // TODO: Add your initialization logic here
+        space = new Space();
 
         base.Initialize();
     }
@@ -36,6 +38,7 @@ public class Game1 : Game
             Exit();
 
         // TODO: Add your update logic here
+        space.Update(gameTime);
 
         base.Update(gameTime);
     }
@@ -45,7 +48,7 @@ public class Game1 : Game
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
         // TODO: Add your drawing code here
-
+        space.Draw(_spriteBatch);
         base.Draw(gameTime);
     }
 }

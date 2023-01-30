@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/emil/cloned/physX/physX/physX.csproj",
+      "projectUniqueName": "/home/emil/plzfuckingworkjfc/physX/physX/physX.csproj",
       "projectName": "physX",
-      "projectPath": "/home/emil/cloned/physX/physX/physX.csproj",
+      "projectPath": "/home/emil/plzfuckingworkjfc/physX/physX/physX.csproj",
       "packagesPath": "/home/emil/.nuget/packages/",
-      "outputPath": "/home/emil/cloned/physX/physX/obj/",
+      "outputPath": "/home/emil/plzfuckingworkjfc/physX/physX/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/emil/.nuget/NuGet/NuGet.Config"
