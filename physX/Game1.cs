@@ -5,14 +5,17 @@ using Microsoft.Xna.Framework.Input;
 namespace physX;
 
 public class Game1 : Game
-{
+{   
+    
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    private BasicEffect _basicEffect;
     private Space space;
 
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
+        _basicEffect = new BasicEffect(GraphicsDevice);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
     }
